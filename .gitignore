@@ -1,0 +1,10 @@
+target/**/**
+.vscode
+.metals
+project
+.bloop
+.idea
+.bsp
+programming_in_scala_fifth_edition/target
+.scala-build
+core
