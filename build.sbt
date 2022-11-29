@@ -8,6 +8,7 @@ val playJson  = "com.typesafe.play" %% "play-json" % "2.9.2"
 lazy val hello = (project in file("."))
   .aggregate(helloCore)
   .dependsOn(helloCore)
+  .enablePlugins(JavaAppPackaging)
   .settings(
     name := "Hello",
     libraryDependencies += scalaTest % Test,
